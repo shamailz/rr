@@ -1,0 +1,206 @@
+
+
+
+body{
+	background-color: #d9ffef;
+	overflow: hidden;
+	/*#f2ecf6; #f2ecf6 */
+
+}
+.words {
+	color: #52806c;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: absolute;
+    max-height: 40vh;
+    animation-name: fall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-family: 'Press Start 2P', cursive;
+}
+.lorem{
+	position: absolute;
+	left: 40vw;
+	top: -15vh;
+}
+.consectetur{
+	position: absolute;
+	left: 20vw;
+	top: -5vh;
+}
+.incididunt {
+	position: absolute;
+	left: 13vw;
+	top: -90vh;
+}
+.eget{
+	position: absolute;
+	left: 55vw;
+	top: -8vh;
+}
+.ipsum{
+	position: absolute;
+	left: 70vw;
+	top: -66vh;
+}
+.adipiscing{
+	position: absolute;
+	left: 22vw;
+	top: -4vh;
+}
+.labore{
+	position: absolute;
+	left: 9vw;
+	top: -37vh;
+}
+.aliqua{
+	position: absolute;
+	left: 90vw;
+	top: -3vh;
+}
+.do { 
+	position: absolute;
+	left: 64vw;
+	top: -45vh;
+}
+.tempor{
+	position: absolute;
+	left: 5vw;
+	top: -10vh;
+}
+.magna{
+	position: absolute;
+	left: 17vw;
+	top: -18vh;
+}
+.nunc{
+	position: absolute;
+	left: 89vw;
+	top: -56vh;
+}
+.aliquam{
+	position: absolute;
+	left: 9vw;
+	top: -78vh;
+}
+.eiusmod{
+	position: absolute;
+	left: 23vw;
+	top: -99vh;
+}
+.ut{
+	position: absolute;
+	left: 16vw;
+	top: -32vh;
+}
+.dolore{
+	position: absolute;
+	left: 83vw;
+	top: -19vh;
+}
+.lobortis{
+	position: absolute;
+	left: 72vw;
+	top: -9vh;
+}
+.et{
+	position: absolute;
+	left: 14vw;
+	top: -87vh;
+}
+.felis{
+	position: absolute;
+	left: 95vw;
+	top: -63vh;
+}
+.mattis{
+	position: absolute;
+	left: 15vw;
+	top: -15vh;
+}
+.aliqua{
+	position: absolute;
+	left: 67vw;
+	top: -67vh;
+}
+.sed{
+	position: absolute;
+	left: 50vw;
+	top: -50vh;
+}
+.amet{
+	position: absolute;
+	left: 47vw;
+	top: -38vh;
+}
+.dolor{
+	position: absolute;
+	left: 31vw;
+	top: -47vh;
+}
+.Lorem{
+	position: absolute;
+	left: 27vw;
+	top: -7vh;
+}
+.sit{
+	position: absolute;
+	left: 47vw;
+	top: -69vh;
+}
+.elit{
+	position: absolute;
+	left: 34vw;
+	top: -98vh;
+}
+.Eget{
+	position: absolute;
+	left: 62vw;
+	top: -33vh;
+}
+
+.lorem , .consectetur , .incididunt , .eget {
+	animation-name: fall;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+}
+.ipsum , .adipiscing , .labore , .aliqua {
+	animation-name: fall;
+	animation-iteration-count: infinite;
+	animation-duration: 6s;
+}
+.do , .tempor , .magna , .nunc {
+	animation-name: fall;
+	animation-iteration-count: infinite;
+	animation-duration: 8s;
+}
+.aliquam , .eiusmod , .ut , .dolore {
+	animation-name: fall;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+}
+.lobortis , .et , .felis , .mattis {
+	animation-name: fall;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+}
+.aliqua , .sed , .amet , .dolor {
+	animation-name: fall;
+	animation-iteration-count: infinite;
+	animation-duration: 7s;
+}
+.Lorem , .sit , .elit , .Eget {
+	animation-name: fall;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+}
+@keyframes fall {
+  	0% { opacity: 100%; }
+  	25% { opacity: 75%; }
+  	50% { opacity: 50%; }
+  	75% { opacity: 250%; }
+    100% {transform: translateY(200vh); 
+    	position: absolute;
+    	opacity: 10%; 
+    	bottom: -2vh; } 
+}
